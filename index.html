@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!------------------- Contact CSS ---------------------->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/intl-tel-input@16.0.3/build/css/intlTelInput.css">
+    <!------------------- fontawesome CSS ---------------------->
+    <script src="//kit.fontawesome.com/60d9ccbe64.js" crossorigin="anonymous"></script>
+    <!------------------- Custom CSS ---------------------->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CoronaTestRegistration</title>
+</head>
+<body>
+    
+<!-------------------  Start Navbar ---------------------->
+<section class="top">
+    <div class="top-nav container">
+    <nav>
+        <div class="toggle-wrap float-left pt-3" onclick="toggleMenu(this)">
+          <span class="toggle-bar"></span>
+        </div>
+        <hgroup>
+            <img class="img-fluid" src="./assets/image/logo_corona.png" alt="Girl in a jacket" width="240"> 
+         
+        </hgroup>
+      </nav>
+      <aside>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+      </aside>
+    </div>
+</section>
+    <!-------------------  End Navbar ---------------------->
+
+
+
+    <!-------------------  Start second nav ---------------------->
+  <section>
+    <div class="second-nav container mt-2">
+     <div class="col-md-12">
+       <div class="row">
+         <div class="col-md-6 col-sm-12">
+          <button type="button" class="btn button-top text-white">Success</button>
+         </div>
+         <div class="col-md-6 col-sm-12">
+           <h3 class="font-weight-bold text-right">اختبار فيروس<span style="color: #3eb380;"> كورونا</span></h3>
+         </div>
+       </div>
+     </div>
+    </div>
+  </section>
+    <!-------------------  End second nav ---------------------->
+
+
+    <!-------------------  Start hero Slider ---------------------->
+    <section>
+      <div class="hero-slider container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./assets/image/slide.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/image/slide.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./assets/image/slide.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-------------------  End hero Slider ---------------------->
+
+
+
+    <!-------------------  Start Middle div ---------------------->
+    
+      <section class="container mt-2">
+        <h4 class="text-center font-weight-bold">كيف تريد أجراء الفحص ؟</h4>
+        <div class="col-md-12 ">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 mt-3">
+              <div class="card ui-card card-1-active">
+              <div class="row">
+                  <div class="col-md-12 card-bodys">
+                      <img class="round-img" src="./assets/image/companies-2.png"><br>
+                     <a href="#" class="card-button">الشركات والمنشآت الطبية</a>
+                  </div>
+              </div>
+          </div>
+             
+            </div>
+            <div class="col-md-4 col-sm-12 mt-3">
+              <div class="card ui-card card-2">
+                <div class="row">
+                    <div class="col-md-12 card-bodys">
+                        <img class="round-img" src="./assets/image/companies-2.png"><br>
+                       <a href="#" class="card-button">الشركات والمنشآت الطبية</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mt-3">
+              <div class="card ui-card card-3">
+                <div class="row">
+                    <div class="col-md-12 card-bodys">
+                        <img class="round-img" src="./assets/image/companies-2.png"><br>
+                       <a href="#" class="card-button">الشركات والمنشآت الطبية</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-------------------  End Middle div ---------------------->
+
+
+    <!-------------------  Start contact Section ---------------------->
+  <section>
+    <div class="contact mt-4">
+      <h4 class="text-center font-weight-bold">أدخل رقم هاتفك المحمول</h4>
+    </div>
+    <div class="col-md-12 col-sm-12  ">
+      <form action="#" class="needs-validation  offset-md-3 was-validated "
+        <div class="form-group ml-2 mt-2">
+          <input type="tel" id="phone" required="required">
+          <div class="invalid-feedback">
+            You must enter a valid mobile number
+          </div>
+        </div>
+      <div class="form-group mt-2 offset-5">
+        <button id="save" class="btn waves-effect waves-button-input font-weight-bold pb-2" type="submit">Recive Code By SMS <i class="far fa-comment-dots fa-2x ml-5"></i></button>
+      </div>
+  
+      </form>  
+    </div>
+  </section>
+    <!-------------------  End contact Section ---------------------->
+
+
+
+    <!-------------------  Start Message Section ---------------------->
+    <section>
+      <div class="container message">
+        <div class="row">
+          <div class="col-md-12">
+            <img class="float-right ml-2" src="./assets/image/message.png" alt="" width="50">
+            <h4 class="font-weight-bold text-white text-right">اشترك في النشرة الاخبارية</h4>
+            <p class="text-white text-right">اشترك للحصول على آخر التحديثات</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-------------------   End Message Section ---------------------->
+
+
+<h1>hello</h1>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-------------------  Contact js ---------------------->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@16.0.3/build/js/intlTelInput.js"></script>
+    <!-------------------  Custom js ---------------------->
+    <script src="./assets/js/custom.js"></script>
+
+</body>
+</html>

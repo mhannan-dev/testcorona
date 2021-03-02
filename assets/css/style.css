@@ -1,0 +1,226 @@
+    /*
+        File Name: style.css
+        Template Name: Aro CRM
+        Created By:
+        URL:
+        1) GENERAL STRUCTURES
+        2) HEADER SECTION
+        3) HERO SECTION
+        4) NEWS LATTER SECTION
+        5) CONTACT SECTION
+        6) FOOTER SECTION
+        7) RESPONSIVE STRUCTURES
+        8) GENERAL STRUCTURES
+        9) HEADER SECTION
+        10) ABOUT SECTION
+        11) NEWS LATTER SECTION
+        12) CONTACT SECTION
+        13) FOOTER SECTION
+        14) RESPONSIVE STRUCTURES
+     */
+
+
+    /* *******************
+     * 1. GENERAL SECTION
+     ******************* */
+     
+     * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    background: white;
+    color: #303030;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: "Arial, Helvetica, sans-serif"!important;
+    overflow-x: hidden;
+    
+  }
+
+   /* *******************
+ * 2. Start Nav SECTION
+ ******************* */
+.top {
+    width: 100%;
+    padding-top: 10px;
+    background-color: #3eb380;
+}
+  nav {
+    position: relative;
+    z-index: 1;
+   
+  }
+  nav::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  hgroup {
+    float: right;
+    margin: 2px 2px 2px 10px;
+  }
+  aside {
+    position: absolute;
+    width: 515px;
+    height: 100%;
+    background: #2a2a2a;
+    right: -550px;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding-top: 70px;
+    transition: all 0.4s ease;
+    z-index: 9999;
+  }
+  aside.active {
+    right: 0;
+  }
+  aside a {
+    display: block;
+    padding: 1.2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #818181;
+    border-bottom: 1px solid #414141;
+  }
+  .toggle-wrap {
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+  
+    /*disable selection*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .toggle-bar,
+  .toggle-bar::before,
+  .toggle-bar::after,
+  .toggle-wrap.active .toggle-bar,
+  .toggle-wrap.active .toggle-bar::before,
+  .toggle-wrap.active .toggle-bar::after {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .toggle-bar {
+    width: 38px;
+    margin: 10px 0;
+    position: relative;
+    border-top: 6px solid #ffffff;
+    display: block;
+  }
+  .toggle-bar::before,
+  .toggle-bar::after {
+    content: "";
+    display: block;
+    background: #ffffff;
+    height: 6px;
+    width: 38px;
+    position: absolute;
+    top: -16px;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -ms-transform-origin: 13%;
+    -webkit-transform-origin: 13%;
+    transform-origin: 13%;
+  }
+  .toggle-bar::after {
+    top: 4px;
+  }
+  .toggle-wrap.active .toggle-bar {
+    border-top: 6px solid transparent;
+  }
+  .toggle-wrap.active .toggle-bar::before {
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .toggle-wrap.active .toggle-bar::after {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+
+ /* *******************
+ * 3. Start button-top SECTION
+ ******************* */
+.button-top{
+  border-radius: 20px 20px;
+  background: #5bc597;
+}
+
+.round-img{
+  width:150px;
+  height:126px;
+  margin-bottom: 18px;
+}
+
+.card-button{
+  background: #5bc597;
+  margin-right:-1px;
+  margin-left:-1px;
+  border-radius: 20px;
+  padding:90px;
+  padding-bottom: 12px;
+  padding-top: 13px;
+  font-size:18px;
+  min-width:102%;
+  color: #ffffff;
+  font-weight:200
+}
+.card-bodys{
+  text-align: center;
+  padding-right: 0;
+  padding-left:0;
+}
+.ui-card{
+  border-radius: 20px 20px;
+}
+
+
+ /* *******************
+ * 3. Start Contact SECTION
+ ******************* */
+input {
+  width: 600px;
+  padding: 10px;
+  border-radius: 20px 20px;
+  border: 1px solid #ccc;
+}
+input::placeholder {
+  color: #BBB;
+}
+#save{
+  border-radius: 20px 20px;
+  background-color: #3cb27f;
+  color: white;
+}
+#phone:focus-visible {
+  outline: none;
+}
+
+ /* *******************
+ * 4. Start Message SECTION
+ ******************* */
+.message{
+    background-color: yellowgreen;
+}
+.message h4{
+  margin-bottom: -0.5rem!important;
+}
+.message p{
+  font-size: 15px;
+  margin-bottom: -0.5rem;
+}

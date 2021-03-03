@@ -1,10 +1,7 @@
  /* *******************
  * 1. Start ToggleMenu SECTION
  ******************* */
-function toggleMenu(e) {
-    e.classList.toggle("active");
-    document.querySelector("aside").classList.toggle("active");
-  }
+// ---------Responsive-navbar-active-animation-----------
 
  /* *******************
  * 2. Start Contact SECTION

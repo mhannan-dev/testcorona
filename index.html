@@ -4,61 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!------------------- Contact CSS ---------------------->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/intl-tel-input@16.0.3/build/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@16.0.3/build/css/intlTelInput.css">
     <!------------------- fontawesome CSS ---------------------->
-    <script src="//kit.fontawesome.com/60d9ccbe64.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/60d9ccbe64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!------------------- Custom CSS ---------------------->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>CoronaTestRegistration</title>
+    <title>Document</title>
 </head>
 <body>
     
 <!-------------------  Start Navbar ---------------------->
-<section class="top">
-    <div class="top-nav container">
-    <nav>
-        <div class="toggle-wrap float-left pt-3" onclick="toggleMenu(this)">
-          <span class="toggle-bar"></span>
-        </div>
-        <hgroup>
-            <img class="img-fluid" src="./assets/image/logo_corona.png" alt="Girl in a jacket" width="240"> 
-         
-        </hgroup>
-      </nav>
-      <aside>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">About</a>
-      </aside>
-    </div>
+<section class="top-nev sticky-top">
+  <div class="nav-sevtion container">
+    <nav class="">
+      <h1 class="logo">thecodefather</h1>
+      <input type="checkbox" id="menuBtn">
+      <label for="menuBtn" class="menuBtn">
+          <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+          <li><a class="active" href="#">Premium</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">|</a></li>
+          <li><a href="#">Sign up</a></li>
+          <li><a href="https://youtube.com/thecodefather" target="_blank">Log in</a></li>
+      </ul>
+  </nav>
+  </div>
 </section>
     <!-------------------  End Navbar ---------------------->
 
 
 
-    <!-------------------  Start second nav ---------------------->
-  <section>
-    <div class="second-nav container mt-2">
-     <div class="col-md-12">
-       <div class="row">
-         <div class="col-md-6 col-sm-12">
-          <button type="button" class="btn button-top text-white">Success</button>
-         </div>
-         <div class="col-md-6 col-sm-12">
-           <h3 class="font-weight-bold text-right">اختبار فيروس<span style="color: #3eb380;"> كورونا</span></h3>
-         </div>
-       </div>
-     </div>
-    </div>
-  </section>
-    <!-------------------  End second nav ---------------------->
+ 
 
 
     <!-------------------  Start hero Slider ---------------------->
     <section>
-      <div class="hero-slider container">
+      <div class="hero-slider ">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -92,50 +79,109 @@
 
 
     <!-------------------  Start Middle div ---------------------->
-    
-      <section class="container mt-2">
-        <h4 class="text-center font-weight-bold">كيف تريد أجراء الفحص ؟</h4>
-        <div class="col-md-12 ">
-          <div class="row">
-            <div class="col-md-4 col-sm-12 mt-3">
-              <div class="card ui-card card-1-active">
-              <div class="row">
-                  <div class="col-md-12 card-bodys">
-                      <img class="round-img" src="./assets/image/companies-2.png"><br>
-                     <a href="#" class="card-button">الشركات والمنشآت الطبية</a>
-                  </div>
-              </div>
-          </div>
-             
-            </div>
-            <div class="col-md-4 col-sm-12 mt-3">
-              <div class="card ui-card card-2">
-                <div class="row">
-                    <div class="col-md-12 card-bodys">
-                        <img class="round-img" src="./assets/image/companies-2.png"><br>
-                       <a href="#" class="card-button">الشركات والمنشآت الطبية</a>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-4 col-sm-12 mt-3">
-              <div class="card ui-card card-3">
-                <div class="row">
-                    <div class="col-md-12 card-bodys">
-                        <img class="round-img" src="./assets/image/companies-2.png"><br>
-                       <a href="#" class="card-button">الشركات والمنشآت الطبية</a>
-                    </div>
-                </div>
-            </div>
-            </div>
-          </div>
+    <section class="project-section ">
+        
+
+        <div class="container mt-3">
+            <ul class="nav nav-tabs justify-content-center" id="myTab">
+                <li class="nav-item  project-nav-item">
+                    <a class="nav-link active  project-btn" data-toggle="tab" href="#tabOne">ALL</a>
+                </li>
+                <li class="nav-item project-nav-item">
+                    <a class="nav-link  project-btn" data-toggle="tab" href="#residential">RESIDENTIAL</a>
+                </li>
+                <li class="nav-item  project-nav-item">
+                    <a class="nav-link  project-btn" data-toggle="tab" href="#commercial">COMMERCIAL</a>
+                </li>
+            </ul>
         </div>
-      </section>
+
+
+
+        <div class="tab-content mt-5 " id="myTabContent">
+            <div class="tab-pane   active show" id="tabOne">
+                <div class="container">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-columns">
+                          <div class="card w3-animate-zoom zoom" style="width: 20rem;">
+                            <img class="card-img-top" src="./assets/image/CastleHomes_PageDuke_ED4508-76-900x589-1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title"><i class="fas fa-map-marker-alt"></i> Address</h5>                         
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                     
+                    </div>
+                  </div>
+                   
+                </div>
+            </div>
+
+
+            <div class="tab-pane " id="residential">
+                <div class="container">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card-columns">
+                          <div class="card w3-animate-zoom zoom" style="width: 20rem;">
+                            <img class="card-img-top" src="./assets/image/CastleHomes_PageDuke_ED4508-76-900x589-1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title"><i class="fas fa-map-marker-alt"></i> Address</h5>                         
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                     
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane " id="commercial">
+                <div class="container">
+                    <div class="card-columns ">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card-columns">
+                              <div class="card w3-animate-zoom zoom" style="width: 20rem;">
+                                <img class="card-img-top" src="./assets/image/CastleHomes_PageDuke_ED4508-76-900x589-1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <h5 class="card-title"><i class="fas fa-map-marker-alt"></i> Address</h5>                         
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                     
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <button class="btn offset-md-6 mt-5" id="view_all">View All</button>
+    </section>
+
+ 
     <!-------------------  End Middle div ---------------------->
 
 
     <!-------------------  Start contact Section ---------------------->
-  <section>
+  <!-- <section>
     <div class="contact mt-4">
       <h4 class="text-center font-weight-bold">أدخل رقم هاتفك المحمول</h4>
     </div>
@@ -147,25 +193,33 @@
             You must enter a valid mobile number
           </div>
         </div>
-      <div class="form-group mt-2 offset-5">
-        <button id="save" class="btn waves-effect waves-button-input font-weight-bold pb-2" type="submit">Recive Code By SMS <i class="far fa-comment-dots fa-2x ml-5"></i></button>
+      <div class="form-group offset-5">
+        <button id="save" class="btn waves-effect waves-button-input font-weight-bold pb-2" type="submit"><h6>Recive Code By SMS</h6></button>
       </div>
   
       </form>  
     </div>
-  </section>
+  </section> -->
     <!-------------------  End contact Section ---------------------->
 
 
 
     <!-------------------  Start Message Section ---------------------->
-    <section>
-      <div class="container message">
+    <section class="message mt-5">
+      <div class="container message_body">
         <div class="row">
-          <div class="col-md-12">
-            <img class="float-right ml-2" src="./assets/image/message.png" alt="" width="50">
-            <h4 class="font-weight-bold text-white text-right">اشترك في النشرة الاخبارية</h4>
-            <p class="text-white text-right">اشترك للحصول على آخر التحديثات</p>
+          <div class="col-md-10">
+            <form>
+              <div class="row">
+                <h3 class="offset-md-2">Newsletter:</h3>
+                <div class="col">
+                  <input type="email" class="form-control mt-2" placeholder="Enter your email">
+                </div>
+              
+                  <button class="btn btn-primary" id="send">send</button>
+                
+              </div>
+            </form>
           </div>
 
         </div>
@@ -174,7 +228,81 @@
     <!-------------------   End Message Section ---------------------->
 
 
-<h1>hello</h1>
+    <!-------------------   Start Footer Section ---------------------->
+<section >
+  <div class="footer">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-8">
+           <div class="row">
+             <div class="col-md-3">
+              <img class="img-fluid" src="./assets/image/logo_corona.png" alt="Italian Trulli" width="150">
+             </div>
+             <div class="col-md-3">
+               <ul class="list-unstyled text-white">
+                 <p>Company</p>
+                 <li><a>About</a></li>
+                 <li><a>Jobs</a></li>
+                 <li><a>For the Record</a></li>
+               </ul>
+             </div>
+             <div class="col-md-3">
+              <ul class="list-unstyled text-white">
+                <p>For Artists</p>
+                <li><a>Developers</a></li>
+                <li><a>Advertising</a></li>
+                <li><a>Investors</a></li>
+                <li><a>Investors</a></li>
+                <li><a>Vendors</a></li>
+              </ul>
+             </div>
+             <div class="col-md-3">
+              <ul class="list-unstyled text-white">
+                <p>Useful links</p>
+                <li><a>Support</a></li>
+                <li><a>Web Player</a></li>
+                <li><a>Free Mobile App</a></li>
+              </ul>
+             </div>
+           </div>
+          </div>
+          <div class="col-md-4 text-right">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ended">
+  <div class="end_footer container">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="list-unstyled">
+            <li><a>Legal</a></li>
+            <li><a>Privacy Center</a></li>
+            <li><a>Privacy Policy</a></li>
+            <li><a>Cookies</a></li>
+            <li><a>About Ads</a></li>
+            <li><a>Additional CA Privacy Disclosures</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <p class="text-right">© 2021 Spotify AB</p>
+        </div>
+      </div>
+    </div>
+      
+  </div>
+</section>
+    <!-------------------   Start Footer Section ---------------------->
+
+
 
 
 

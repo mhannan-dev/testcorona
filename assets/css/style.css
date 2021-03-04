@@ -171,14 +171,15 @@
         border-bottom: 0px!important;
     }
     
-    #myTab li {
+    #myTab li a {
         border: 1px solid gray;
         border-radius: 20px 20px;
         margin: 10px;
     }
     
-    #myTab li:active {
-        background-color: #1ed760;
+    #myTab li a:active {
+        background-color: #1ed760!important;
+        border-color: #1ed760!important;
     }
     
     .nav-tabs .nav-link:focus,
@@ -237,6 +238,10 @@
     .ui-card {
         border-radius: 20px 20px;
     }
+    .btn.btn-success.subscribe {
+        border-radius: 20px;
+    }
+    
     /* *******************
  * 3. Start Contact SECTION
  ******************* */
@@ -314,13 +319,15 @@
         border-radius: 20px 20px;
         font-size: 20px;
     }
+
+    
     /* *******************
  * 4. Start Footer SECTION
  ******************* */
     
     .footer {
         background-color: #000;
-        padding: 50px;
+        
     }
     
     .footer p {
@@ -331,9 +338,7 @@
         cursor: pointer;
     }
     
-    .footer ul li {
-        padding: 5px;
-    }
+    
     
     .footer ul li a:hover {
         color: #3ab07c!important;
@@ -341,19 +346,21 @@
     
     .ended {
         background-color: #000;
-        padding-bottom: 20px;
+       
     }
     
     .end_footer ul li {
         display: inline;
         font-size: 12px;
-        padding: 15px;
-        color: #919496;
+        padding-left: 14px;
+        color: white;
+        font-weight: bold;
     }
     
     .end_footer p {
         font-size: 12px;
-        color: #919496;
+        color: white;
+        font-weight: bold;
     }
     
     .end_footer ul li:hover {

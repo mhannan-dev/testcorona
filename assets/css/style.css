@@ -63,7 +63,7 @@
     }
 
     .top-nev {
-        background: #1d1e22;
+        background: #272e38;
     }
 
     nav {
@@ -209,6 +209,7 @@
  * 3. Start button-top SECTION
  ******************* */
 
+
     .button-top {
         border-radius: 20px 20px;
     }
@@ -250,12 +251,14 @@
 
 
     .subscribe {
-        border-radius: 20px;
+        border-radius: 0px;
         width: 100px;
         letter-spacing: 3px;
         line-height: 2px;
         transition: width 2s;
         height: 37px;
+        border: none !important;
+
     }
 
     .subscribe:hover {
@@ -273,7 +276,8 @@
 
     .subscribe_form {
     border: none !important;
-    border-radius: 20px;
+    border-radius: 0px;
+
 
 }
 
@@ -307,7 +311,7 @@
  ******************* */
 
     .message {
-        background-color: #1d1e22;
+        background-color: #343d4a;
         padding: 30px;
         color: #1ed760;
     }
@@ -381,8 +385,7 @@
     }
 
     .ended {
-        background-color: #000;
-
+        background-color: #272e38;
     }
 
     .end_footer ul li {
@@ -566,3 +569,187 @@
     bottom: 100%;
   }
 }
+
+
+/*Tab css*/
+
+
+
+    nav > .nav.nav-tabs{
+        border: none;
+        color:#fff;
+        background:#272e38;
+        border-radius:0;
+
+    }
+    nav > div a.nav-item.nav-link,
+    nav > div a.nav-item.nav-link.active
+    {
+        border: none;
+        padding: 18px 25px;
+        color:#fff;
+        background:#272e38;
+        border-radius:0;
+    }
+
+    nav > div a.nav-item.nav-link.active:after
+    {
+        content: "";
+        position: relative;
+        bottom: -60px;
+        left: -10%;
+        border: 15px solid transparent;
+        border-top-color: #28a745 ;
+    }
+    .tab-content {
+        background: transparent;
+        line-height: 25px;
+        /*border-top: 1px solid #ddd;*/
+        border-right: 0px;
+        /* border-top: 5px solid #e74c3c; */
+        /* border-bottom: 5px solid #e74c3c; */
+        padding: 30px 25px;
+    }
+
+    nav > div a.nav-item.nav-link:hover,
+    nav > div a.nav-item.nav-link:focus
+    {
+        border: none;
+        background: #28a745;
+        color:#fff;
+        border-radius:0;
+        transition:background 0.20s linear;
+    }
+
+
+    /*News letter*/
+
+    .home-newsletter {
+        padding: 80px 0;
+        background: #2a323c;
+    }
+
+    .home-newsletter .single {
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 2; }
+    .home-newsletter .single h2 {
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 40px; }
+    .home-newsletter .single .form-control {
+        height: 50px;
+        background: white;
+        border-color: transparent;
+        border-radius: 20px 0 0 20px;
+    }
+    .home-newsletter .single .form-control:focus {
+        box-shadow: none;
+        border-color: #243c4f; }
+    .home-newsletter .single .btn {
+        min-height: 50px;
+        border-radius: 0 20px 20px 0;
+        background: #243c4f;
+        color: #fff;
+    }
+
+
+    /*Registration*/
+    .register {
+        background: -webkit-linear-gradient(left, #243c4f, #233b5e);
+        margin-top: 3%;
+        /* padding: 3%; */
+    }
+    .register-left{
+        text-align: center;
+        color: #fff;
+        margin-top: 4%;
+    }
+    .register-left input{
+        border: none;
+        border-radius: 1.5rem;
+        padding: 2%;
+        width: 60%;
+        background: #f8f9fa;
+        font-weight: bold;
+        color: #383d41;
+        margin-top: 30%;
+        margin-bottom: 3%;
+        cursor: pointer;
+    }
+    .register-right{
+        background: #f8f9fa;
+        border-top-left-radius: 10% 50%;
+        border-bottom-left-radius: 10% 50%;
+    }
+    .register-left img{
+        margin-top: 15%;
+        margin-bottom: 5%;
+        width: 25%;
+        -webkit-animation: mover 2s infinite  alternate;
+        animation: mover 1s infinite  alternate;
+    }
+    @-webkit-keyframes mover {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-20px); }
+    }
+    @keyframes mover {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-20px); }
+    }
+    .register-left p{
+        font-weight: lighter;
+        padding: 12%;
+        margin-top: -9%;
+    }
+    .register .register-form{
+        padding: 10%;
+        margin-top: 10%;
+    }
+    .btnRegister {
+        float: right;
+        margin-top: 10%;
+        border: none;
+        border-radius: 1.5rem;
+        padding: 2%;
+        background: #272e38;
+        color: #fff;
+        font-weight: 600;
+        width: 50%;
+        cursor: pointer;
+    }
+    .register .nav-tabs{
+        margin-top: 3%;
+        border: none;
+        background: #0062cc;
+        border-radius: 1.5rem;
+        width: 28%;
+        float: right;
+    }
+    .register .nav-tabs .nav-link{
+        padding: 2%;
+        height: 34px;
+        font-weight: 600;
+        color: #fff;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+    }
+    .register .nav-tabs .nav-link:hover{
+        border: none;
+    }
+    .register .nav-tabs .nav-link.active{
+        width: 100px;
+        color: #0062cc;
+        border: 2px solid #0062cc;
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+    }
+    .register-heading{
+        text-align: center;
+        margin-top: 8%;
+        margin-bottom: -15%;
+        color: #495057;
+    }

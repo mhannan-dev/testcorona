@@ -238,9 +238,25 @@
     .ui-card {
         border-radius: 20px 20px;
     }
-    .btn.btn-success.subscribe {
-        border-radius: 20px;
-    }
+    .subscribe {
+    border-radius: 20px;
+    width: 100px;
+    letter-spacing: 3px;
+    line-height: 2px;
+	transition: width 2s;
+}
+
+.subscribe:hover {
+  background-color: #0cbd83;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+  border: none;
+  color: #1f2221;
+  width: 150px;
+  transition: width 3s;
+}
+
     
     /* *******************
  * 3. Start Contact SECTION

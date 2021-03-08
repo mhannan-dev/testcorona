@@ -929,9 +929,9 @@
                     this.selectedFlag.setAttribute("title", title);
                     // Custom code
                     var title_c=title.split(":");
-                    var title_c2=title.split(":");
+                    
                     document.getElementById('country_code').value = title_c[1];
-                    document.getElementById('country_code_2').value = title_c2[1];
+                    
                     // custom code
                     if (this.options.separateDialCode) {
                         var dialCode = this.selectedCountryData.dialCode ? "+".concat(this.selectedCountryData.dialCode) : "";

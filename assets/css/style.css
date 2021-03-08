@@ -23,7 +23,7 @@
     html,
     body {
         background: white;
-        color: #303030;
+        color: #020202;
         height: 100%;
         width: 100%;
         position: absolute;
@@ -92,8 +92,7 @@
     nav ul li {
         list-style: none;
         display: inline-block;
-        line-height: 80px;
-        margin: 0 .2rem;
+       
     }
 
     nav ul li a {
@@ -139,7 +138,6 @@
         }
         nav ul li {
             display: block;
-            min-width: 80%;
             text-align: center;
             line-height: 4rem;
         }

@@ -1,0 +1,58 @@
+/********************************/
+/*          Media Queries       */
+/********************************/
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .mt-4, .my-4 {
+        margin-top: 0rem !important;
+    }
+    .nav-item ul li{
+        min-width: 0px!important;
+    }
+      .nav ul li {
+      margin: 0px!important;
+    }
+    .long_menu ul li{
+        font-size: 10px!important;
+    }
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+    
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    #nav-tab {
+        font-size: 13px!important;
+    }
+    .nav_items{
+        height: 322px!important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 574px) {
+    #nav-tab {
+        font-size: 9px!important;
+    }
+}
+@media only screen and (max-width: 575px) {
+    
+}
+@media (max-width:480px) {
+}
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+    #nav-tab {
+        font-size: 8px!important;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 405px) {
+    #nav-tab {
+        font-size: 5px!important;
+    }
+}
+
+
